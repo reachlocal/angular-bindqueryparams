@@ -1,0 +1,20 @@
+{
+  "name": "angular-bindqueryparams",
+  "version": "0.0.0",
+  "homepage": "https://github.com/reachlocal/angular-bindqueryparams",
+  "authors": [
+    "Tom Hood <networkerror@gmail.com>"
+  ],
+  "description": "2-way bindings to query-string parameters",
+  "main": "queryParams.js",
+  "keywords": [
+    "anguar",
+    "route",
+    "query"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "example"
+  ]
+}

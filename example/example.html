@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>QueryParams Demo</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script src="../queryParams.js"></script>
+    <script>
+        angular.module("Example", ['rl.QueryParams'])
+            .controller("ExampleCtrl", function($scope, QueryParams) {
+                $scope.QueryParams = QueryParams;
+            });
+    </script>
+</head>
+<body ng-app="Example">
+    <section ng-controller="ExampleCtrl">
+        Search: <input ng-model="QueryParams.search">
+        <br>
+        Another Param: <input ng-model="QueryParams.anotherParam">
+    </section>
+</body>
+</html>
