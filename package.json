@@ -1,0 +1,27 @@
+{
+  "name": "angular-bindqueryparams",
+  "version": "1.0.0",
+  "description": "2-way bindings to query-string parameters",
+  "main": "queryParams.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reachlocal/angular-bindqueryparams.git"
+  },
+  "keywords": [
+    "angular",
+    "route",
+    "query"
+  ],
+  "author": "Tom Hood <networkerror@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reachlocal/angular-bindqueryparams/issues"
+  },
+  "homepage": "https://github.com/reachlocal/angular-bindqueryparams#readme"
+}
